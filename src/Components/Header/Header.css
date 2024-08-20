@@ -1,0 +1,47 @@
+.Header_Container{
+    display: flex;
+    padding: 30px;
+    height: 450px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 85vw;
+    flex-direction: row;
+    border-radius: 30px;
+    align-content: center;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;
+}
+
+.Header_Image-Image{
+    position:relative;
+    bottom:30px;
+    height: 95vh;
+    mask-image: linear-gradient(black 70%,transparent)
+}
+
+.title_header-title{
+    font-family: "Agency FB";
+    position: relative;
+    text-align: left;
+    font-size: 140px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 480px){
+    .Header_Container{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .title_header-title{
+        text-align: center;
+        bottom:100px;
+        font-size: 100px;
+    }
+    .Header_Image-Image{
+        height: 70vh;
+    }
+}

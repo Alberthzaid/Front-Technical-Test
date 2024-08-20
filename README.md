@@ -13,3 +13,4 @@ Para el control de los estados de la aplicacion se uso Zustan.
 
 Todos los estilos esta hechos 100% en css.
 
+Link de despliegue > https://front-technical-test.vercel.app/

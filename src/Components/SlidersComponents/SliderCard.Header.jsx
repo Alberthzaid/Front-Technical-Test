@@ -7,23 +7,23 @@ export const SliderCardHeader = () => {
     const panels = [
         {
             title: 'Explore The World',
-            imageUrl: 'https://media.istockphoto.com/id/888300636/es/foto/blanco-y-negro-retrato-de-un-apuesto-joven-en-un-traje-sonriendo-y-mirando-a-la-c%C3%A1mara.jpg?s=1024x1024&w=is&k=20&c=WugTvNd_P6riDKGiEphjMbu4ak91xJbr-nqRxbnRMCU=',
+            imageUrl: 'https://media.istockphoto.com/id/1470048338/es/foto/mujer-usando-el-tel%C3%A9fono-con-pantalla-blanca-mientras-est%C3%A1-acostada-en-el-sof%C3%A1-de-su-casa.jpg?s=1024x1024&w=is&k=20&c=WVutVh-E9jp08DLu66Zbly3nWpHiC4ir4bXaCXYO0q0=',
         },
         {
             title: 'Wild Forest',
-            imageUrl: 'https://media.istockphoto.com/id/819661904/es/foto/j%C3%B3venes-y-gente-elegante.jpg?s=1024x1024&w=is&k=20&c=iWBekQpB-13Izh2NS6vjD04aniW02dvTHXrgZ7gbTGQ=',
+            imageUrl: 'https://media.istockphoto.com/id/1347685599/es/foto/joven-asi%C3%A1tico-con-los-ojos-cerrados-disfrutando-de-la-m%C3%BAsica-con-auriculares-mientras-se.jpg?s=1024x1024&w=is&k=20&c=Wv9H_Peq0ffBHCxsAliEp4qlHCcUM7FsNipE04H-b3c=',
     },
         {
             title: 'Sunny Beach',
-            imageUrl: 'https://media.istockphoto.com/id/1202142519/es/foto/macho-hombre.jpg?s=1024x1024&w=is&k=20&c=Ew8hHqr7ERoK5hVURLeVUQeda_nQILWB3leNfgg5s5U=',
+            imageUrl: 'https://media.istockphoto.com/id/1263901830/es/foto/joven-emocionada-bailando-y-escuchando-la-m%C3%BAsica-despu%C3%A9s-del-trabajo.jpg?s=1024x1024&w=is&k=20&c=jpP8_cp8ZC7YwMI9oKErzwunSoxRcIrwb3HkebyMKOI=',
         },
         {
             title: 'City on Winter',
-            imageUrl: 'https://media.istockphoto.com/id/152500536/es/foto/los-joven-contempor%C3%A1neo.jpg?s=1024x1024&w=is&k=20&c=D508PgxPylS1getVlfCe7lPMYXEajf9G4Y8diLvKqEw=',
+            imageUrl: 'https://media.istockphoto.com/id/1208670144/es/foto/retrato-de-atractiva-joven-americana-con-auriculares-inal%C3%A1mbricos-escuchando-m%C3%BAsica.jpg?s=1024x1024&w=is&k=20&c=mCCHuuOS_6-L9blQk39qjJsW6oSV_1zvyJhtoqNTeWw=',
         },
         {
             title: 'Mountains - Clouds',
-            imageUrl: 'https://media.istockphoto.com/id/488062206/es/foto/modelo-masculino-en-blanco-y-negro.jpg?s=1024x1024&w=is&k=20&c=g_OOeCEZ2QtXGf7qEGOxmL1RnDfV4OVxCCy0nio-DQM=',
+            imageUrl: 'https://media.istockphoto.com/id/1373017594/es/foto/auriculares-sobre-fondo-de-color-naranja.jpg?s=1024x1024&w=is&k=20&c=LGG4dNZpoACIjoYV3rUCQcA4d93R3otVuqMxOFDCwus=',
         }
     ];
 

@@ -8,6 +8,7 @@ import {Login} from "./Pages/Public/Login/Login.jsx";
 import {ProductsPage} from "./Pages/Public/Products/ProductsPage.jsx";
 import {CartPopup} from "./Components/CartPopup/CartPopup.jsx";
 import {CartPayment} from "./Pages/Public/Payments/CartPayment.jsx";
+import {Admin} from "./Pages/Private/Admin/Admin.jsx";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                 <Route path='/Login' element={<Login/>}/>
                 <Route path='/Products' element={<ProductsPage/>}/>
                 <Route path='/Payments' element={<CartPayment/>}/>
+                <Route path='/Admin' element={<Admin/>}/>
             </Routes>
         </BrowserRouter>
     </>

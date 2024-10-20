@@ -31,6 +31,7 @@ export const StockContainer = ({ api }) => {
     <>
       <div className="titleProducts">
         <h2 className="titleProducts-title">Inventory</h2>
+      </div>
 
       <div className="Container_Products">
         <table className="styled-table">
@@ -52,8 +53,6 @@ export const StockContainer = ({ api }) => {
           </tbody>
         </table>
       </div>
-      </div>
-
     </>
   );
 };

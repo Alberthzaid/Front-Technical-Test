@@ -16,12 +16,8 @@
 
 .styled-table {
     border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    background: #000000;
+    background: #ffffff;
     border-radius: 1rem;
     overflow: hidden;
     font-size: 16px;
@@ -29,8 +25,6 @@
 
 
 .styled-table thead tr {
-    
-  border-top-right-radius: 0px;
     background-color: #ffffff;
     color: #000000;
     text-align: left;
@@ -47,6 +41,9 @@ styled-table tbody tr {
 
 .styled-table tbody tr:nth-of-type(even) {
     background-color: #494949;
+}
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: #000000;
 }
 
 

@@ -2,16 +2,16 @@
 import React from 'react'
 import {StockContainer} from "../../../Components/Products/ProductStock/StockContainer.jsx";
 import {fetchProducts} from "../../../Helpers/ApiConfig/Controllers/ProductStock.js";
+import {API_GET_PRODUCTS} from "../../../Helpers/ApiConfig/Controllers/Apis.js";
 
-const api = `${fetchProducts}`
-
+// const api = `${fetchProducts}`
+const api = `${API_GET_PRODUCTS}?limit=3`
 export const Admin = () => {
     return (
-        <div>
-            <p5>Hello</p5>    
-            {/* <section className="ProductsAdminContent">
+        <div>    
+            <section className="ProductsAdminContent">
                 <StockContainer api={api}/>
-            </section> */}
+            </section> 
 
         </div>
     )

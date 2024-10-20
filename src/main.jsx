@@ -61,14 +61,10 @@ submitBtn.addEventListener('click', ()=>{
     // )
     // .then(res=> console.log(res))
     // .catch(err=> console.log(err));
-
-    axios({
-      method: "POST",
-      url: " https://backend-makers.onrender.com/api/v1/gemini",
-      data:{
-        "prompt": "get me info on dell computers"
-    }
-    }
+    
+     axios.post(
+      "https://backend-makers.onrender.com/api/v1/gemini",
+      { prompt:'Hola quiero informacion sobre un iphone 18' }
     )
     .then(res=> <span class="msg">${res.response.product_info.description}</span>)
     .catch(err=> console.log(err));

@@ -6,7 +6,7 @@ export const getProduct = async (fetchProducts)=>{
     try{
         const request = await  fetch(fetchProducts);
         const response = await request.json();
-        console.log(response)
+        // console.log(response)
         return response;
     }catch(error){
         throw error

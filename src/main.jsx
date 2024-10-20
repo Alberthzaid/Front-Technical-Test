@@ -44,31 +44,35 @@ submitBtn.addEventListener('click', ()=>{
 
     let temp = `<div class="out-msg">
     <span class="my-msg">${userInput}</span>
+    
     <img src="img/person.png" class="avatar">
     </div>`;
 
-    axios({
-      method: "POST",
-      url: "https://reqres.in/api/register",
-      data:{
-        "email": "eve.holt@reqres.in",
-        "password": "pistol"
-    }
-    }
-    )
-    .then(res=> console.log(res))
-    .catch(err=> console.log(err));
+    // PRUEBA DE POST QUE FUNCIONA
 
     // axios({
     //   method: "POST",
-    //   url: " https://backend-makers.onrender.com/api/v1/gemini",
+    //   url: "https://reqres.in/api/register",
     //   data:{
-    //     "prompt": "get me info on dell computers"
+    //     "email": "eve.holt@reqres.in",
+    //     "password": "pistol"
     // }
     // }
     // )
     // .then(res=> console.log(res))
     // .catch(err=> console.log(err));
+
+    axios({
+      method: "POST",
+      url: " https://backend-makers.onrender.com/api/v1/gemini",
+      data:{
+        "prompt": "get me info on dell computers"
+    }
+    }
+    )
+    .then(res=> <span class="msg">${res.response.product_info.description}</span>)
+    .catch(err=> console.log(err));
+    
 
     chatArea.insertAdjacentHTML("beforeend", temp);
     inputElm.value = '';

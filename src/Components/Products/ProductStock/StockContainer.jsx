@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./StockContainer.css";
 import { StockCard } from "../StockCard/StockCard.jsx";
-import { getProduct } from "../../../Helpers/ApiConfig/Controllers/ControllersFetch.js";
+import { getProduct } from "../../../Helpers/ApiConfig/Controllers/ProductStock.js";
 import { Loader } from "../../Loader/Loader.jsx";
 
 export const StockContainer = ({ api }) => {
@@ -14,7 +14,8 @@ export const StockContainer = ({ api }) => {
     const getProductList = async () => {
       try {
         const data = await getProduct(api);
-        setProducts(data);
+        console.log(data);
+        setProducts(res.data);
         setLoading(false);
       } catch (error) {
         throw error;
@@ -46,8 +47,8 @@ export const StockContainer = ({ api }) => {
               {products.map((data, i) => (
                 <tr key={i} className="active-row">
                   <td>{data.id}</td>
-                  <td>{data.title}</td>
-                  <td>{data.price}</td>
+                  <td>{data.product_name}</td>
+                  <td>{data.stock_cuantity}</td>
                 </tr>
               ))}
           </tbody>

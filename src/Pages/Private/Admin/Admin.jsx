@@ -5,7 +5,7 @@ import {fetchProducts} from "../../../Helpers/ApiConfig/Controllers/ProductStock
 import {API_GET_PRODUCTS} from "../../../Helpers/ApiConfig/Controllers/Apis.js";
 
 // const api = `${fetchProducts}`
-const api = `${API_GET_PRODUCTS}?limit=3`
+const api = `${fetchProducts}?limit=10`
 export const Admin = () => {
     return (
         <div>    

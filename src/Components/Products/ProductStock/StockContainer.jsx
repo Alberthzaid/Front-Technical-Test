@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import './ProductContainer.css'
+import './StockContainer.css'
 import{ProductCard} from "../ProductCard/ProductCard.jsx";
 import {getProduct} from "../../../Helpers/ApiConfig/Controllers/ControllersFetch.js";
 import {Loader} from "../../Loader/Loader.jsx";

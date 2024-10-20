@@ -8,10 +8,10 @@ const api = `${fetchProducts}`
 export const Admin = () => {
     return (
         <div>
-
-            <section className="ProductsAdminContent">
+            <p5>Hello</p5>    
+            {/* <section className="ProductsAdminContent">
                 <StockContainer api={api}/>
-            </section>
+            </section> */}
 
         </div>
     )

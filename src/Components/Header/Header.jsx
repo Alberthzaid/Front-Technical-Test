@@ -15,7 +15,7 @@ export const Header = () => {
                 </div>
 
                 <div className="title_header">
-                    <h2 className="title_header-title">The <br></br>newest <br></br>tech</h2>
+                    <h2 className="title_header-title">The <br></br>newest <br></br>Tech</h2>
                 </div>
 
                 <div className="Header_Image">

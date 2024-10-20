@@ -29,10 +29,10 @@ export const Navbar = () => {
                         <box-icon color='white' name='home'></box-icon>
                     </button>
                     <button  className="button">
-                        <box-icon onClick={()=>navegation('/Products')}  color="white" name='closet'></box-icon>
+                        <box-icon onClick={()=>navegation('/Products')}  color="white" name='headphone'></box-icon>
                     </button>
                     <button className="button">
-                    <box-icon color="white"  name='user'></box-icon>
+                    <box-icon color="white" onClick={()=>navegation('/Admin')} name='bot'></box-icon>
                     </button>
 
                     <button onClick={hadleClick} className="button">

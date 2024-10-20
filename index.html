@@ -4,10 +4,37 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Makers Tech</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+    <section>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <button class="chat-btn"> 
+            <i class="material-icons"> chatbot </i>
+        </button>
+
+        <div class="chat-popup">
+            <div class="badge">1</div>
+            <div class="chat-area">
+             <div class="income-msg">
+                 <img src="img/me.png" class="avatar" alt="">
+                 <span class="msg"> Hi, How can I help you?</span>
+             </div>   
+            </div>
+
+            <div class="input-area">
+                <input type="text">
+                <!-- <button id="emoji-btn"> &#127773;</button> -->
+                <button class="submit"> <i class="material-icons"> send</i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>

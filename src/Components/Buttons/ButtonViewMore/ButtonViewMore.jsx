@@ -11,7 +11,7 @@ export const ButtonViewMore = () => {
 
     return (
         <div className="ButtonViewMore-Content">
-            <button onClick={hadleClick} class="buttonViewMore"> VIEW MORE</button>
+            <button onClick={hadleClick} className="buttonViewMore"> VIEW MORE</button>
         </div>
     )
 }
